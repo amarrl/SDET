@@ -15,7 +15,7 @@ WebDriver driver=new ChromeDriver();
 		
 		//ChromeDriver driver=new ChromeDriver();
 		driver.get("https://davidwalsh.name/demo/multiple-file-upload.php"); 
-		driver.manage().window().maximize();
+		driver.manage().window().maximize(); 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); 
 		
 		//1.single file upload

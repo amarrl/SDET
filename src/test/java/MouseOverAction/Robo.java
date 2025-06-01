@@ -22,7 +22,9 @@ public class Robo {
         robo.keyPress(KeyEvent.VK_CONTROL);
         robo.keyPress(KeyEvent.VK_V);
         robo.keyRelease(KeyEvent.VK_V);
-        robo.keyRelease(KeyEvent.VK_CONTROL);	
+        robo.keyRelease(KeyEvent.VK_CONTROL);	 
+        
+        
 
 	}
 

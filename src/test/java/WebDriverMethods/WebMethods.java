@@ -28,7 +28,7 @@ public class WebMethods {
 	String title=driver.getTitle();
 	String url=driver.getCurrentUrl();
 	String id=driver.getWindowHandle(); 
-	String pageSource=driver.getPageSource(); 
+	String pageSource=driver.getPageSource();  
 	
 	System.out.println("title is "+title);
 	System.out.println("URL IS "+url);

@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
  3.Logout
  3.lOGIN
  4.Adv Search]
- 5.Logout
+ 5.Logout 
  */
 public class AnnotationsExmp1 {
 	

@@ -30,7 +30,7 @@ WebDriver driver=new ChromeDriver();
 		WebElement captch=driver.findElement(By.xpath("//span[@class='beforeCImage_new']/following-sibling::img"));
 		
 		TakesScreenshot ts=(TakesScreenshot)driver;
-		File source=captch.getScreenshotAs(OutputType.FILE);
+		File source=captch.getScreenshotAs(OutputType.FILE); 
 		
 	FileUtils.copyFile(source, target);
 	

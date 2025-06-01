@@ -29,7 +29,7 @@ public class JavaScriptexecutor {
 		//passing text into input -alerate of sendkeyss when we get elementinterspected exception we need to use this
 		js1.executeScript("arguments[0].setAttribute('value','Jon');",input1);
 		
-		 
+		
 	
  
 		WebElement radio=driver.findElement(By.xpath("//input[@id='female']"));
